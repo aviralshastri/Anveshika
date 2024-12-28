@@ -1,0 +1,29 @@
+[2.456s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/slam_lidar': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/slam_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/slam_lidar/build --no-deps symlink_data
+[3.072s] running develop
+[3.455s] running egg_info
+[3.455s] creating slam_lidar.egg-info
+[3.455s] writing slam_lidar.egg-info/PKG-INFO
+[3.455s] writing dependency_links to slam_lidar.egg-info/dependency_links.txt
+[3.455s] writing entry points to slam_lidar.egg-info/entry_points.txt
+[3.456s] writing requirements to slam_lidar.egg-info/requires.txt
+[3.456s] writing top-level names to slam_lidar.egg-info/top_level.txt
+[3.456s] writing manifest file 'slam_lidar.egg-info/SOURCES.txt'
+[3.459s] reading manifest file 'slam_lidar.egg-info/SOURCES.txt'
+[3.461s] writing manifest file 'slam_lidar.egg-info/SOURCES.txt'
+[3.461s] running build_ext
+[3.462s] Creating /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/python3.10/site-packages/slam-lidar.egg-link (link to .)
+[3.463s] Installing driving_node script to /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/slam_lidar
+[3.463s] Installing imu_node script to /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/slam_lidar
+[3.463s] Installing mapping_node script to /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/slam_lidar
+[3.463s] Installing navigation_node script to /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/slam_lidar
+[3.463s] 
+[3.463s] Installed /home/kb/Anveshika/Anveshika_ws/build/slam_lidar
+[3.464s] running symlink_data
+[3.464s] creating /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/ament_index
+[3.464s] creating /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/ament_index/resource_index
+[3.464s] creating /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/ament_index/resource_index/packages
+[3.464s] symbolically linking /home/kb/Anveshika/Anveshika_ws/build/slam_lidar/resource/slam_lidar -> /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/ament_index/resource_index/packages
+[3.464s] symbolically linking /home/kb/Anveshika/Anveshika_ws/build/slam_lidar/package.xml -> /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar
+[3.464s] creating /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/configuration
+[3.465s] symbolically linking /home/kb/Anveshika/Anveshika_ws/build/slam_lidar/configuration/config.lua -> /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/configuration/
+[3.565s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/slam_lidar' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/slam_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/slam_lidar/build --no-deps symlink_data

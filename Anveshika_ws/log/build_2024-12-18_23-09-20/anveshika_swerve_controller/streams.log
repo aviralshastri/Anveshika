@@ -1,0 +1,28 @@
+[2.518s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/build --no-deps symlink_data
+[3.102s] running develop
+[3.504s] running egg_info
+[3.504s] creating anveshika_swerve_controller.egg-info
+[3.504s] writing anveshika_swerve_controller.egg-info/PKG-INFO
+[3.509s] writing dependency_links to anveshika_swerve_controller.egg-info/dependency_links.txt
+[3.509s] writing entry points to anveshika_swerve_controller.egg-info/entry_points.txt
+[3.509s] writing requirements to anveshika_swerve_controller.egg-info/requires.txt
+[3.509s] writing top-level names to anveshika_swerve_controller.egg-info/top_level.txt
+[3.509s] writing manifest file 'anveshika_swerve_controller.egg-info/SOURCES.txt'
+[3.510s] reading manifest file 'anveshika_swerve_controller.egg-info/SOURCES.txt'
+[3.512s] writing manifest file 'anveshika_swerve_controller.egg-info/SOURCES.txt'
+[3.514s] running build_ext
+[3.515s] Creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/lib/python3.10/site-packages/anveshika-swerve-controller.egg-link (link to .)
+[3.516s] Installing swerve_controller script to /home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/lib/anveshika_swerve_controller
+[3.517s] 
+[3.517s] Installed /home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller
+[3.517s] running symlink_data
+[3.517s] creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/ament_index
+[3.517s] creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/ament_index/resource_index
+[3.517s] creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/ament_index/resource_index/packages
+[3.517s] symbolically linking /home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/resource/anveshika_swerve_controller -> /home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/ament_index/resource_index/packages
+[3.518s] symbolically linking /home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/package.xml -> /home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller
+[3.518s] creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/launch
+[3.518s] symbolically linking /home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/launch/swerve_controller.launch.py -> /home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/launch
+[3.518s] creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/config
+[3.518s] symbolically linking /home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/config/swerve.yaml -> /home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/config
+[3.624s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/build --no-deps symlink_data

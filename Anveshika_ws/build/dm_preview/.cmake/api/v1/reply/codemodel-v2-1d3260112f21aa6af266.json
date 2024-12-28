@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c1e3992b1f780850c483.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dm_preview",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_dm_preview_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_dm_preview_files-171d0549ad768029df5f.json",
+					"name" : "all_dm_preview_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apc_camera_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apc_camera_component-d2da3e09fe6cecd7100c.json",
+					"name" : "apc_camera_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apc_camera_listener_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apc_camera_listener_node-d155ac56a9ecc1a27d77.json",
+					"name" : "apc_camera_listener_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apc_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apc_camera_node-63986a208648e284482b.json",
+					"name" : "apc_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dm_preview_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dm_preview_uninstall-77943cba62057ef8a77d.json",
+					"name" : "dm_preview_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-13bac5a6e871f68628a6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kb/Anveshika/Anveshika_ws/build/dm_preview",
+		"source" : "/home/kb/Anveshika/Anveshika_ws/src/dm_preview"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

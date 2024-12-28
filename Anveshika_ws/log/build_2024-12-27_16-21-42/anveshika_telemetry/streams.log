@@ -1,0 +1,17 @@
+[4.092s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry/build --no-deps symlink_data
+[4.769s] running develop
+[5.223s] running egg_info
+[5.225s] writing anveshika_telemetry.egg-info/PKG-INFO
+[5.225s] writing dependency_links to anveshika_telemetry.egg-info/dependency_links.txt
+[5.225s] writing entry points to anveshika_telemetry.egg-info/entry_points.txt
+[5.226s] writing requirements to anveshika_telemetry.egg-info/requires.txt
+[5.226s] writing top-level names to anveshika_telemetry.egg-info/top_level.txt
+[5.228s] reading manifest file 'anveshika_telemetry.egg-info/SOURCES.txt'
+[5.229s] writing manifest file 'anveshika_telemetry.egg-info/SOURCES.txt'
+[5.231s] running build_ext
+[5.233s] Creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/lib/python3.10/site-packages/anveshika-telemetry.egg-link (link to .)
+[5.233s] Installing telemetry_node script to /home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/lib/anveshika_telemetry
+[5.235s] 
+[5.235s] Installed /home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry
+[5.235s] running symlink_data
+[5.391s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry/build --no-deps symlink_data

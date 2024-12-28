@@ -1,0 +1,17 @@
+[2.749s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_modes': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_modes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_modes/build --no-deps symlink_data
+[3.423s] running develop
+[3.909s] running egg_info
+[3.909s] writing anveshika_modes.egg-info/PKG-INFO
+[3.909s] writing dependency_links to anveshika_modes.egg-info/dependency_links.txt
+[3.909s] writing entry points to anveshika_modes.egg-info/entry_points.txt
+[3.909s] writing requirements to anveshika_modes.egg-info/requires.txt
+[3.909s] writing top-level names to anveshika_modes.egg-info/top_level.txt
+[3.912s] reading manifest file 'anveshika_modes.egg-info/SOURCES.txt'
+[3.914s] writing manifest file 'anveshika_modes.egg-info/SOURCES.txt'
+[3.917s] running build_ext
+[3.917s] Creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/lib/python3.10/site-packages/anveshika-modes.egg-link (link to .)
+[3.918s] Installing modes_node script to /home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/lib/anveshika_modes
+[3.919s] 
+[3.919s] Installed /home/kb/Anveshika/Anveshika_ws/build/anveshika_modes
+[3.919s] running symlink_data
+[3.984s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_modes' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_modes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_modes/build --no-deps symlink_data

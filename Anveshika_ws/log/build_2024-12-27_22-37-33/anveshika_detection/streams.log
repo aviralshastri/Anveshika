@@ -1,0 +1,18 @@
+[3.938s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/build --no-deps symlink_data
+[5.055s] running develop
+[5.551s] running egg_info
+[5.551s] writing anveshika_detection.egg-info/PKG-INFO
+[5.551s] writing dependency_links to anveshika_detection.egg-info/dependency_links.txt
+[5.551s] writing entry points to anveshika_detection.egg-info/entry_points.txt
+[5.552s] writing requirements to anveshika_detection.egg-info/requires.txt
+[5.552s] writing top-level names to anveshika_detection.egg-info/top_level.txt
+[5.554s] reading manifest file 'anveshika_detection.egg-info/SOURCES.txt'
+[5.555s] writing manifest file 'anveshika_detection.egg-info/SOURCES.txt'
+[5.564s] running build_ext
+[5.565s] Creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/python3.10/site-packages/anveshika-detection.egg-link (link to .)
+[5.565s] Installing detection_node script to /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/anveshika_detection
+[5.565s] Installing mode_node script to /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/anveshika_detection
+[5.565s] 
+[5.565s] Installed /home/kb/Anveshika/Anveshika_ws/build/anveshika_detection
+[5.565s] running symlink_data
+[5.684s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/build --no-deps symlink_data

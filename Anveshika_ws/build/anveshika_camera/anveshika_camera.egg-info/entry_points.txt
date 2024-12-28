@@ -1,0 +1,5 @@
+[console_scripts]
+aruco_reader_node = anveshika_camera.aruco_reader_node:main
+camera_streamer = anveshika_camera.camera_streamer:main
+viewer_node = anveshika_camera.viewer_node:main
+

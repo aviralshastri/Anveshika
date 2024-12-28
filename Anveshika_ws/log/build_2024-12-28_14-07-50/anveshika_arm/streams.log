@@ -1,0 +1,17 @@
+[2.703s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_arm': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_arm/build --no-deps symlink_data
+[3.367s] running develop
+[3.783s] running egg_info
+[3.783s] writing anveshika_arm.egg-info/PKG-INFO
+[3.785s] writing dependency_links to anveshika_arm.egg-info/dependency_links.txt
+[3.786s] writing entry points to anveshika_arm.egg-info/entry_points.txt
+[3.786s] writing requirements to anveshika_arm.egg-info/requires.txt
+[3.786s] writing top-level names to anveshika_arm.egg-info/top_level.txt
+[3.790s] reading manifest file 'anveshika_arm.egg-info/SOURCES.txt'
+[3.798s] writing manifest file 'anveshika_arm.egg-info/SOURCES.txt'
+[3.800s] running build_ext
+[3.800s] Creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/lib/python3.10/site-packages/anveshika-arm.egg-link (link to .)
+[3.800s] Installing arm_node script to /home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/lib/anveshika_arm
+[3.800s] 
+[3.801s] Installed /home/kb/Anveshika/Anveshika_ws/build/anveshika_arm
+[3.801s] running symlink_data
+[3.874s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_arm' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_arm/build --no-deps symlink_data

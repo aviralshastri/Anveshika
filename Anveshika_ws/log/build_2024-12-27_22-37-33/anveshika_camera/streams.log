@@ -1,0 +1,25 @@
+[4.530s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_camera': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_camera/build --no-deps symlink_data
+[5.312s] running develop
+[5.774s] running egg_info
+[5.775s] creating anveshika_camera.egg-info
+[5.775s] writing anveshika_camera.egg-info/PKG-INFO
+[5.775s] writing dependency_links to anveshika_camera.egg-info/dependency_links.txt
+[5.776s] writing entry points to anveshika_camera.egg-info/entry_points.txt
+[5.776s] writing requirements to anveshika_camera.egg-info/requires.txt
+[5.776s] writing top-level names to anveshika_camera.egg-info/top_level.txt
+[5.776s] writing manifest file 'anveshika_camera.egg-info/SOURCES.txt'
+[5.779s] reading manifest file 'anveshika_camera.egg-info/SOURCES.txt'
+[5.780s] writing manifest file 'anveshika_camera.egg-info/SOURCES.txt'
+[5.784s] running build_ext
+[5.784s] Creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/lib/python3.10/site-packages/anveshika-camera.egg-link (link to .)
+[5.785s] Installing aruco_reader_node script to /home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/lib/anveshika_camera
+[5.786s] Installing camera_streamer script to /home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/lib/anveshika_camera
+[5.786s] 
+[5.786s] Installed /home/kb/Anveshika/Anveshika_ws/build/anveshika_camera
+[5.786s] running symlink_data
+[5.786s] creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/ament_index
+[5.786s] creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/ament_index/resource_index
+[5.786s] creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/ament_index/resource_index/packages
+[5.787s] symbolically linking /home/kb/Anveshika/Anveshika_ws/build/anveshika_camera/resource/anveshika_camera -> /home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/ament_index/resource_index/packages
+[5.787s] symbolically linking /home/kb/Anveshika/Anveshika_ws/build/anveshika_camera/package.xml -> /home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/anveshika_camera
+[5.838s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_camera' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_camera/build --no-deps symlink_data

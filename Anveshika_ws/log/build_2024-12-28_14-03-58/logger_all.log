@@ -1,0 +1,708 @@
+[0.383s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.383s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x774c3f989de0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x774c3f989900>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x774c3f989900>>, mixin_verb=('build',))
+[0.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.799s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kb/Anveshika/Anveshika_ws'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extensions ['ignore', 'ignore_ament_install']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extension 'ignore'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extension 'ignore_ament_install'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extensions ['colcon_pkg']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extension 'colcon_pkg'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extensions ['colcon_meta']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extension 'colcon_meta'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extensions ['ros']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extension 'ros'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extensions ['cmake', 'python']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extension 'cmake'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extension 'python'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extensions ['python_setup_py']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D) by extension 'python_setup_py'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extensions ['ignore', 'ignore_ament_install']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extension 'ignore'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extension 'ignore_ament_install'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extensions ['colcon_pkg']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extension 'colcon_pkg'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extensions ['colcon_meta']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extension 'colcon_meta'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extensions ['ros']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extension 'ros'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extensions ['cmake', 'python']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extension 'cmake'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extension 'python'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extensions ['python_setup_py']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg) by extension 'python_setup_py'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extensions ['ignore', 'ignore_ament_install']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extension 'ignore'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extension 'ignore_ament_install'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extensions ['colcon_pkg']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extension 'colcon_pkg'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extensions ['colcon_meta']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extension 'colcon_meta'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extensions ['ros']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extension 'ros'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extensions ['cmake', 'python']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extension 'cmake'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extension 'python'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extensions ['python_setup_py']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(eYs3D/cfg/DM_Quality_Cfg) by extension 'python_setup_py'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_arm) by extension 'ignore'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_arm) by extension 'ignore_ament_install'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_arm) by extensions ['colcon_pkg']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_arm) by extension 'colcon_pkg'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_arm) by extensions ['colcon_meta']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_arm) by extension 'colcon_meta'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_arm) by extensions ['ros']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_arm) by extension 'ros'
+[0.833s] DEBUG:colcon.colcon_core.package_identification:Package 'src/anveshika_arm' with type 'ros.ament_python' and name 'anveshika_arm'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_bringup) by extension 'ignore'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_bringup) by extension 'ignore_ament_install'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_bringup) by extensions ['colcon_pkg']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_bringup) by extension 'colcon_pkg'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_bringup) by extensions ['colcon_meta']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_bringup) by extension 'colcon_meta'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_bringup) by extensions ['ros']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_bringup) by extension 'ros'
+[0.834s] DEBUG:colcon.colcon_core.package_identification:Package 'src/anveshika_bringup' with type 'ros.ament_cmake' and name 'anveshika_bringup'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_camera) by extension 'ignore'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_camera) by extension 'ignore_ament_install'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_camera) by extensions ['colcon_pkg']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_camera) by extension 'colcon_pkg'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_camera) by extensions ['colcon_meta']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_camera) by extension 'colcon_meta'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_camera) by extensions ['ros']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_camera) by extension 'ros'
+[0.836s] DEBUG:colcon.colcon_core.package_identification:Package 'src/anveshika_camera' with type 'ros.ament_python' and name 'anveshika_camera'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_description) by extensions ['ignore', 'ignore_ament_install']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_description) by extension 'ignore'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_description) by extension 'ignore_ament_install'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_description) by extensions ['colcon_pkg']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_description) by extension 'colcon_pkg'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_description) by extensions ['colcon_meta']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_description) by extension 'colcon_meta'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_description) by extensions ['ros']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_description) by extension 'ros'
+[0.837s] DEBUG:colcon.colcon_core.package_identification:Package 'src/anveshika_description' with type 'ros.ament_cmake' and name 'anveshika_description'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_detection) by extension 'ignore'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_detection) by extension 'ignore_ament_install'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_detection) by extensions ['colcon_pkg']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_detection) by extension 'colcon_pkg'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_detection) by extensions ['colcon_meta']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_detection) by extension 'colcon_meta'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_detection) by extensions ['ros']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_detection) by extension 'ros'
+[0.838s] DEBUG:colcon.colcon_core.package_identification:Package 'src/anveshika_detection' with type 'ros.ament_python' and name 'anveshika_detection'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_modes) by extensions ['ignore', 'ignore_ament_install']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_modes) by extension 'ignore'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_modes) by extension 'ignore_ament_install'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_modes) by extensions ['colcon_pkg']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_modes) by extension 'colcon_pkg'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_modes) by extensions ['colcon_meta']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_modes) by extension 'colcon_meta'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_modes) by extensions ['ros']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_modes) by extension 'ros'
+[0.840s] DEBUG:colcon.colcon_core.package_identification:Package 'src/anveshika_modes' with type 'ros.ament_python' and name 'anveshika_modes'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extension 'ignore'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extension 'ignore_ament_install'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extensions ['colcon_pkg']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extension 'colcon_pkg'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extensions ['colcon_meta']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extension 'colcon_meta'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extensions ['ros']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extension 'ros'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extensions ['cmake', 'python']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extension 'cmake'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extension 'python'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extensions ['python_setup_py']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_nav) by extension 'python_setup_py'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_swerve_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_swerve_controller) by extension 'ignore'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_swerve_controller) by extension 'ignore_ament_install'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_swerve_controller) by extensions ['colcon_pkg']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_swerve_controller) by extension 'colcon_pkg'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_swerve_controller) by extensions ['colcon_meta']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_swerve_controller) by extension 'colcon_meta'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_swerve_controller) by extensions ['ros']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_swerve_controller) by extension 'ros'
+[0.842s] DEBUG:colcon.colcon_core.package_identification:Package 'src/anveshika_swerve_controller' with type 'ros.ament_python' and name 'anveshika_swerve_controller'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_telemetry) by extensions ['ignore', 'ignore_ament_install']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_telemetry) by extension 'ignore'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_telemetry) by extension 'ignore_ament_install'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_telemetry) by extensions ['colcon_pkg']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_telemetry) by extension 'colcon_pkg'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_telemetry) by extensions ['colcon_meta']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_telemetry) by extension 'colcon_meta'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_telemetry) by extensions ['ros']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/anveshika_telemetry) by extension 'ros'
+[0.843s] DEBUG:colcon.colcon_core.package_identification:Package 'src/anveshika_telemetry' with type 'ros.ament_python' and name 'anveshika_telemetry'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/dm_preview) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/dm_preview) by extension 'ignore'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/dm_preview) by extension 'ignore_ament_install'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/dm_preview) by extensions ['colcon_pkg']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/dm_preview) by extension 'colcon_pkg'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/dm_preview) by extensions ['colcon_meta']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/dm_preview) by extension 'colcon_meta'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/dm_preview) by extensions ['ros']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/dm_preview) by extension 'ros'
+[0.844s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dm_preview' with type 'ros.ament_cmake' and name 'dm_preview'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_lidar) by extension 'ignore'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_lidar) by extension 'ignore_ament_install'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_lidar) by extensions ['colcon_pkg']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_lidar) by extension 'colcon_pkg'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_lidar) by extensions ['colcon_meta']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_lidar) by extension 'colcon_meta'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_lidar) by extensions ['ros']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_lidar) by extension 'ros'
+[0.846s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_lidar' with type 'ros.ament_python' and name 'slam_lidar'
+[0.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.893s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/kb/ydlidar_ws/install
+[0.894s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/kb/Anveshika/Anveshika_ws/install
+[0.896s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 426 installed packages in /opt/ros/humble
+[0.898s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.950s] Level 5:colcon.colcon_core.verb:set package 'anveshika_arm' build argument 'cmake_args' from command line to 'None'
+[0.950s] Level 5:colcon.colcon_core.verb:set package 'anveshika_arm' build argument 'cmake_target' from command line to 'None'
+[0.950s] Level 5:colcon.colcon_core.verb:set package 'anveshika_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.950s] Level 5:colcon.colcon_core.verb:set package 'anveshika_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.950s] Level 5:colcon.colcon_core.verb:set package 'anveshika_arm' build argument 'cmake_clean_first' from command line to 'False'
+[0.951s] Level 5:colcon.colcon_core.verb:set package 'anveshika_arm' build argument 'cmake_force_configure' from command line to 'False'
+[0.951s] Level 5:colcon.colcon_core.verb:set package 'anveshika_arm' build argument 'ament_cmake_args' from command line to 'None'
+[0.951s] Level 5:colcon.colcon_core.verb:set package 'anveshika_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.951s] Level 5:colcon.colcon_core.verb:set package 'anveshika_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.951s] DEBUG:colcon.colcon_core.verb:Building package 'anveshika_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kb/Anveshika/Anveshika_ws/build/anveshika_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm', 'merge_install': False, 'path': '/home/kb/Anveshika/Anveshika_ws/src/anveshika_arm', 'symlink_install': True, 'test_result_base': None}
+[0.951s] Level 5:colcon.colcon_core.verb:set package 'anveshika_camera' build argument 'cmake_args' from command line to 'None'
+[0.951s] Level 5:colcon.colcon_core.verb:set package 'anveshika_camera' build argument 'cmake_target' from command line to 'None'
+[0.951s] Level 5:colcon.colcon_core.verb:set package 'anveshika_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.951s] Level 5:colcon.colcon_core.verb:set package 'anveshika_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.951s] Level 5:colcon.colcon_core.verb:set package 'anveshika_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.951s] Level 5:colcon.colcon_core.verb:set package 'anveshika_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.951s] Level 5:colcon.colcon_core.verb:set package 'anveshika_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.951s] Level 5:colcon.colcon_core.verb:set package 'anveshika_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.951s] Level 5:colcon.colcon_core.verb:set package 'anveshika_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.952s] DEBUG:colcon.colcon_core.verb:Building package 'anveshika_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kb/Anveshika/Anveshika_ws/build/anveshika_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera', 'merge_install': False, 'path': '/home/kb/Anveshika/Anveshika_ws/src/anveshika_camera', 'symlink_install': True, 'test_result_base': None}
+[0.952s] Level 5:colcon.colcon_core.verb:set package 'anveshika_description' build argument 'cmake_args' from command line to 'None'
+[0.952s] Level 5:colcon.colcon_core.verb:set package 'anveshika_description' build argument 'cmake_target' from command line to 'None'
+[0.952s] Level 5:colcon.colcon_core.verb:set package 'anveshika_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.952s] Level 5:colcon.colcon_core.verb:set package 'anveshika_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.952s] Level 5:colcon.colcon_core.verb:set package 'anveshika_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.952s] Level 5:colcon.colcon_core.verb:set package 'anveshika_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.952s] Level 5:colcon.colcon_core.verb:set package 'anveshika_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.952s] Level 5:colcon.colcon_core.verb:set package 'anveshika_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.952s] Level 5:colcon.colcon_core.verb:set package 'anveshika_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.952s] DEBUG:colcon.colcon_core.verb:Building package 'anveshika_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description', 'merge_install': False, 'path': '/home/kb/Anveshika/Anveshika_ws/src/anveshika_description', 'symlink_install': True, 'test_result_base': None}
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'anveshika_detection' build argument 'cmake_args' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'anveshika_detection' build argument 'cmake_target' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'anveshika_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'anveshika_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'anveshika_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'anveshika_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'anveshika_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'anveshika_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'anveshika_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.953s] DEBUG:colcon.colcon_core.verb:Building package 'anveshika_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection', 'merge_install': False, 'path': '/home/kb/Anveshika/Anveshika_ws/src/anveshika_detection', 'symlink_install': True, 'test_result_base': None}
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'anveshika_modes' build argument 'cmake_args' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'anveshika_modes' build argument 'cmake_target' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'anveshika_modes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'anveshika_modes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_modes' build argument 'cmake_clean_first' from command line to 'False'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_modes' build argument 'cmake_force_configure' from command line to 'False'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_modes' build argument 'ament_cmake_args' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_modes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_modes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.954s] DEBUG:colcon.colcon_core.verb:Building package 'anveshika_modes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kb/Anveshika/Anveshika_ws/build/anveshika_modes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes', 'merge_install': False, 'path': '/home/kb/Anveshika/Anveshika_ws/src/anveshika_modes', 'symlink_install': True, 'test_result_base': None}
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_swerve_controller' build argument 'cmake_args' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_swerve_controller' build argument 'cmake_target' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_swerve_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_swerve_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_swerve_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_swerve_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_swerve_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_swerve_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'anveshika_swerve_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.954s] DEBUG:colcon.colcon_core.verb:Building package 'anveshika_swerve_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller', 'merge_install': False, 'path': '/home/kb/Anveshika/Anveshika_ws/src/anveshika_swerve_controller', 'symlink_install': True, 'test_result_base': None}
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'anveshika_telemetry' build argument 'cmake_args' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'anveshika_telemetry' build argument 'cmake_target' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'anveshika_telemetry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'anveshika_telemetry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'anveshika_telemetry' build argument 'cmake_clean_first' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'anveshika_telemetry' build argument 'cmake_force_configure' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'anveshika_telemetry' build argument 'ament_cmake_args' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'anveshika_telemetry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'anveshika_telemetry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.955s] DEBUG:colcon.colcon_core.verb:Building package 'anveshika_telemetry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry', 'merge_install': False, 'path': '/home/kb/Anveshika/Anveshika_ws/src/anveshika_telemetry', 'symlink_install': True, 'test_result_base': None}
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'dm_preview' build argument 'cmake_args' from command line to 'None'
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'dm_preview' build argument 'cmake_target' from command line to 'None'
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'dm_preview' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'dm_preview' build argument 'cmake_clean_cache' from command line to 'False'
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'dm_preview' build argument 'cmake_clean_first' from command line to 'False'
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'dm_preview' build argument 'cmake_force_configure' from command line to 'False'
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'dm_preview' build argument 'ament_cmake_args' from command line to 'None'
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'dm_preview' build argument 'catkin_cmake_args' from command line to 'None'
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'dm_preview' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.956s] DEBUG:colcon.colcon_core.verb:Building package 'dm_preview' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kb/Anveshika/Anveshika_ws/build/dm_preview', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kb/Anveshika/Anveshika_ws/install/dm_preview', 'merge_install': False, 'path': '/home/kb/Anveshika/Anveshika_ws/src/dm_preview', 'symlink_install': True, 'test_result_base': None}
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'slam_lidar' build argument 'cmake_args' from command line to 'None'
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'slam_lidar' build argument 'cmake_target' from command line to 'None'
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'slam_lidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'slam_lidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'slam_lidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'slam_lidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'slam_lidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'slam_lidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'slam_lidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.957s] DEBUG:colcon.colcon_core.verb:Building package 'slam_lidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kb/Anveshika/Anveshika_ws/build/slam_lidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar', 'merge_install': False, 'path': '/home/kb/Anveshika/Anveshika_ws/src/slam_lidar', 'symlink_install': True, 'test_result_base': None}
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'anveshika_bringup' build argument 'cmake_args' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'anveshika_bringup' build argument 'cmake_target' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'anveshika_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'anveshika_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'anveshika_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'anveshika_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'anveshika_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'anveshika_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'anveshika_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.957s] DEBUG:colcon.colcon_core.verb:Building package 'anveshika_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup', 'merge_install': False, 'path': '/home/kb/Anveshika/Anveshika_ws/src/anveshika_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.958s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.959s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_description' with build type 'ament_cmake'
+[0.959s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_description'
+[0.965s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.965s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.965s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.970s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_arm' with build type 'ament_python'
+[0.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_arm', 'ament_prefix_path')
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/share/anveshika_arm/hook/ament_prefix_path.ps1'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/share/anveshika_arm/hook/ament_prefix_path.dsv'
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/share/anveshika_arm/hook/ament_prefix_path.sh'
+[0.974s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.974s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.980s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_camera' with build type 'ament_python'
+[0.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_camera', 'ament_prefix_path')
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/anveshika_camera/hook/ament_prefix_path.ps1'
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/anveshika_camera/hook/ament_prefix_path.dsv'
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/anveshika_camera/hook/ament_prefix_path.sh'
+[0.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.989s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_detection' with build type 'ament_python'
+[0.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_detection', 'ament_prefix_path')
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/hook/ament_prefix_path.ps1'
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/hook/ament_prefix_path.dsv'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/hook/ament_prefix_path.sh'
+[0.994s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.002s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_modes' with build type 'ament_python'
+[1.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_modes', 'ament_prefix_path')
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/share/anveshika_modes/hook/ament_prefix_path.ps1'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/share/anveshika_modes/hook/ament_prefix_path.dsv'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/share/anveshika_modes/hook/ament_prefix_path.sh'
+[1.006s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.011s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_swerve_controller' with build type 'ament_python'
+[1.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_swerve_controller', 'ament_prefix_path')
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/hook/ament_prefix_path.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/hook/ament_prefix_path.dsv'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/hook/ament_prefix_path.sh'
+[1.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.014s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.019s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_telemetry' with build type 'ament_python'
+[1.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_telemetry', 'ament_prefix_path')
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/share/anveshika_telemetry/hook/ament_prefix_path.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/share/anveshika_telemetry/hook/ament_prefix_path.dsv'
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/share/anveshika_telemetry/hook/ament_prefix_path.sh'
+[1.025s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.025s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.040s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kb/Anveshika/Anveshika_ws/src/dm_preview' with build type 'ament_cmake'
+[1.041s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kb/Anveshika/Anveshika_ws/src/dm_preview'
+[1.043s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.044s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/anveshika_description -- -j8 -l8
+[1.397s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_arm'
+[1.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.681s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_camera'
+[1.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.970s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_detection'
+[1.970s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.970s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.285s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_modes'
+[2.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.601s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_swerve_controller'
+[2.601s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.601s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.915s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_telemetry'
+[2.916s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.916s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/dm_preview -- -j8 -l8
+[2.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/anveshika_description -- -j8 -l8
+[2.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/anveshika_description
+[2.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(anveshika_description)
+[2.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/anveshika_description
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description' for CMake module files
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description' for CMake config files
+[3.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_description', 'cmake_prefix_path')
+[3.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/hook/cmake_prefix_path.ps1'
+[3.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/hook/cmake_prefix_path.dsv'
+[3.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/hook/cmake_prefix_path.sh'
+[3.027s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/bin'
+[3.027s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/lib/pkgconfig/anveshika_description.pc'
+[3.027s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/lib/python3.10/site-packages'
+[3.028s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/bin'
+[3.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.ps1'
+[3.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.dsv'
+[3.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.sh'
+[3.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.bash'
+[3.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.zsh'
+[3.047s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/colcon-core/packages/anveshika_description)
+[3.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(anveshika_description)
+[3.049s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description' for CMake module files
+[3.052s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description' for CMake config files
+[3.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_description', 'cmake_prefix_path')
+[3.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/hook/cmake_prefix_path.ps1'
+[3.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/hook/cmake_prefix_path.dsv'
+[3.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/hook/cmake_prefix_path.sh'
+[3.063s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/bin'
+[3.067s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/lib/pkgconfig/anveshika_description.pc'
+[3.068s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/lib/python3.10/site-packages'
+[3.068s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/bin'
+[3.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.ps1'
+[3.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.dsv'
+[3.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.sh'
+[3.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.bash'
+[3.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.zsh'
+[3.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/colcon-core/packages/anveshika_description)
+[3.074s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kb/Anveshika/Anveshika_ws/src/slam_lidar' with build type 'ament_python'
+[3.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_lidar', 'ament_prefix_path')
+[3.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/hook/ament_prefix_path.ps1'
+[3.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/hook/ament_prefix_path.dsv'
+[3.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/hook/ament_prefix_path.sh'
+[3.079s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.079s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.881s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kb/Anveshika/Anveshika_ws/src/slam_lidar'
+[3.882s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.882s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/dm_preview -- -j8 -l8
+[3.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/dm_preview
+[4.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dm_preview)
+[4.039s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview' for CMake module files
+[4.044s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview' for CMake config files
+[4.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/dm_preview
+[4.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('dm_preview', 'cmake_prefix_path')
+[4.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/hook/cmake_prefix_path.ps1'
+[4.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/hook/cmake_prefix_path.dsv'
+[4.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/hook/cmake_prefix_path.sh'
+[4.059s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib'
+[4.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('dm_preview', 'ld_library_path_lib')
+[4.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/hook/ld_library_path_lib.ps1'
+[4.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/hook/ld_library_path_lib.dsv'
+[4.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/hook/ld_library_path_lib.sh'
+[4.062s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/bin'
+[4.062s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/pkgconfig/dm_preview.pc'
+[4.062s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/python3.10/site-packages'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/bin'
+[4.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.ps1'
+[4.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.dsv'
+[4.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.sh'
+[4.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.bash'
+[4.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.zsh'
+[4.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/colcon-core/packages/dm_preview)
+[4.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dm_preview)
+[4.069s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview' for CMake module files
+[4.070s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview' for CMake config files
+[4.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('dm_preview', 'cmake_prefix_path')
+[4.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/hook/cmake_prefix_path.ps1'
+[4.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/hook/cmake_prefix_path.dsv'
+[4.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/hook/cmake_prefix_path.sh'
+[4.077s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib'
+[4.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('dm_preview', 'ld_library_path_lib')
+[4.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/hook/ld_library_path_lib.ps1'
+[4.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/hook/ld_library_path_lib.dsv'
+[4.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/hook/ld_library_path_lib.sh'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/bin'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/pkgconfig/dm_preview.pc'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/python3.10/site-packages'
+[4.081s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/bin'
+[4.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.ps1'
+[4.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.dsv'
+[4.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.sh'
+[4.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.bash'
+[4.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.zsh'
+[4.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/colcon-core/packages/dm_preview)
+[4.087s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_bringup' with build type 'ament_cmake'
+[4.087s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kb/Anveshika/Anveshika_ws/src/anveshika_bringup'
+[4.088s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.088s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/build --no-deps symlink_data
+[4.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_modes': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_modes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_modes/build --no-deps symlink_data
+[4.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_camera': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_camera/build --no-deps symlink_data
+[4.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/build --no-deps symlink_data
+[4.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_arm': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_arm/build --no-deps symlink_data
+[4.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry/build --no-deps symlink_data
+[4.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup': CMAKE_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/anveshika_description:/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup:/home/kb/ydlidar_ws/install/ydlidar_ros2_driver:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup -- -j8 -l8
+[4.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/slam_lidar': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/slam_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/slam_lidar/build --no-deps symlink_data
+[5.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup' returned '0': CMAKE_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/anveshika_description:/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup:/home/kb/ydlidar_ws/install/ydlidar_ros2_driver:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup -- -j8 -l8
+[5.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup': CMAKE_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/anveshika_description:/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup:/home/kb/ydlidar_ws/install/ydlidar_ros2_driver:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup
+[5.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_arm', 'pythonpath_develop')
+[5.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/anveshika_arm/share/anveshika_arm/hook/pythonpath_develop.ps1'
+[5.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_arm' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_arm/build --no-deps symlink_data
+[5.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/build/anveshika_arm/share/anveshika_arm/hook/pythonpath_develop.dsv'
+[5.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/anveshika_arm/share/anveshika_arm/hook/pythonpath_develop.sh'
+[5.188s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm' for CMake module files
+[5.189s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm' for CMake config files
+[5.190s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/lib'
+[5.190s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/bin'
+[5.190s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/lib/pkgconfig/anveshika_arm.pc'
+[5.190s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/lib/python3.10/site-packages'
+[5.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_arm', 'pythonpath')
+[5.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/share/anveshika_arm/hook/pythonpath.ps1'
+[5.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/share/anveshika_arm/hook/pythonpath.dsv'
+[5.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/share/anveshika_arm/hook/pythonpath.sh'
+[5.193s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/bin'
+[5.193s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(anveshika_arm)
+[5.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/share/anveshika_arm/package.ps1'
+[5.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/share/anveshika_arm/package.dsv'
+[5.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/share/anveshika_arm/package.sh'
+[5.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/share/anveshika_arm/package.bash'
+[5.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/share/anveshika_arm/package.zsh'
+[5.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm/share/colcon-core/packages/anveshika_arm)
+[5.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_camera', 'pythonpath_develop')
+[5.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/anveshika_camera/share/anveshika_camera/hook/pythonpath_develop.ps1'
+[5.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/build/anveshika_camera/share/anveshika_camera/hook/pythonpath_develop.dsv'
+[5.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/anveshika_camera/share/anveshika_camera/hook/pythonpath_develop.sh'
+[5.214s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera' for CMake module files
+[5.216s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera' for CMake config files
+[5.217s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/lib'
+[5.217s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/bin'
+[5.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_camera' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_camera/build --no-deps symlink_data
+[5.218s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/lib/pkgconfig/anveshika_camera.pc'
+[5.219s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/lib/python3.10/site-packages'
+[5.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_camera', 'pythonpath')
+[5.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/anveshika_camera/hook/pythonpath.ps1'
+[5.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/anveshika_camera/hook/pythonpath.dsv'
+[5.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/anveshika_camera/hook/pythonpath.sh'
+[5.226s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/bin'
+[5.226s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(anveshika_camera)
+[5.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/anveshika_camera/package.ps1'
+[5.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/anveshika_camera/package.dsv'
+[5.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/anveshika_camera/package.sh'
+[5.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/anveshika_camera/package.bash'
+[5.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/anveshika_camera/package.zsh'
+[5.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera/share/colcon-core/packages/anveshika_camera)
+[5.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_detection', 'pythonpath_develop')
+[5.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/share/anveshika_detection/hook/pythonpath_develop.ps1'
+[5.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/build --no-deps symlink_data
+[5.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/share/anveshika_detection/hook/pythonpath_develop.dsv'
+[5.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/share/anveshika_detection/hook/pythonpath_develop.sh'
+[5.236s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection' for CMake module files
+[5.237s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection' for CMake config files
+[5.238s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib'
+[5.239s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/bin'
+[5.239s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/pkgconfig/anveshika_detection.pc'
+[5.239s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/python3.10/site-packages'
+[5.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_detection', 'pythonpath')
+[5.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/hook/pythonpath.ps1'
+[5.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/hook/pythonpath.dsv'
+[5.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/hook/pythonpath.sh'
+[5.245s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/bin'
+[5.245s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(anveshika_detection)
+[5.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/package.ps1'
+[5.247s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/package.dsv'
+[5.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/package.sh'
+[5.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/package.bash'
+[5.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/package.zsh'
+[5.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/colcon-core/packages/anveshika_detection)
+[5.250s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(anveshika_bringup)
+[5.251s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup' for CMake module files
+[5.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup' returned '0': CMAKE_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/anveshika_description:/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup:/home/kb/ydlidar_ws/install/ydlidar_ros2_driver:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/Anveshika/Anveshika_ws/install/anveshika_camera:/home/kb/Anveshika/Anveshika_ws/install/anveshika_arm:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup
+[5.253s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup' for CMake config files
+[5.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_bringup', 'cmake_prefix_path')
+[5.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/hook/cmake_prefix_path.ps1'
+[5.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/hook/cmake_prefix_path.dsv'
+[5.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/hook/cmake_prefix_path.sh'
+[5.257s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/bin'
+[5.257s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/lib/pkgconfig/anveshika_bringup.pc'
+[5.257s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/lib/python3.10/site-packages'
+[5.258s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/bin'
+[5.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/package.ps1'
+[5.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/package.dsv'
+[5.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/package.sh'
+[5.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/package.bash'
+[5.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/package.zsh'
+[5.262s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/colcon-core/packages/anveshika_bringup)
+[5.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(anveshika_bringup)
+[5.263s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup' for CMake module files
+[5.264s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup' for CMake config files
+[5.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_bringup', 'cmake_prefix_path')
+[5.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/hook/cmake_prefix_path.ps1'
+[5.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/hook/cmake_prefix_path.dsv'
+[5.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/hook/cmake_prefix_path.sh'
+[5.272s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/bin'
+[5.272s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/lib/pkgconfig/anveshika_bringup.pc'
+[5.272s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/lib/python3.10/site-packages'
+[5.273s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/bin'
+[5.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/package.ps1'
+[5.275s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/package.dsv'
+[5.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/package.sh'
+[5.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/package.bash'
+[5.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/anveshika_bringup/package.zsh'
+[5.278s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup/share/colcon-core/packages/anveshika_bringup)
+[5.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_modes', 'pythonpath_develop')
+[5.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/anveshika_modes/share/anveshika_modes/hook/pythonpath_develop.ps1'
+[5.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_modes' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_modes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_modes/build --no-deps symlink_data
+[5.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/build/anveshika_modes/share/anveshika_modes/hook/pythonpath_develop.dsv'
+[5.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/anveshika_modes/share/anveshika_modes/hook/pythonpath_develop.sh'
+[5.318s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes' for CMake module files
+[5.319s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes' for CMake config files
+[5.320s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/lib'
+[5.320s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/bin'
+[5.320s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/lib/pkgconfig/anveshika_modes.pc'
+[5.320s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/lib/python3.10/site-packages'
+[5.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_modes', 'pythonpath')
+[5.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/share/anveshika_modes/hook/pythonpath.ps1'
+[5.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/share/anveshika_modes/hook/pythonpath.dsv'
+[5.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/share/anveshika_modes/hook/pythonpath.sh'
+[5.323s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/bin'
+[5.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(anveshika_modes)
+[5.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/share/anveshika_modes/package.ps1'
+[5.324s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/share/anveshika_modes/package.dsv'
+[5.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/share/anveshika_modes/package.sh'
+[5.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/share/anveshika_modes/package.bash'
+[5.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/share/anveshika_modes/package.zsh'
+[5.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kb/Anveshika/Anveshika_ws/install/anveshika_modes/share/colcon-core/packages/anveshika_modes)
+[5.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_swerve_controller', 'pythonpath_develop')
+[5.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/share/anveshika_swerve_controller/hook/pythonpath_develop.ps1'
+[5.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/build --no-deps symlink_data
+[5.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/share/anveshika_swerve_controller/hook/pythonpath_develop.dsv'
+[5.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/share/anveshika_swerve_controller/hook/pythonpath_develop.sh'
+[5.341s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller' for CMake module files
+[5.342s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller' for CMake config files
+[5.343s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/lib'
+[5.344s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/bin'
+[5.344s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/lib/pkgconfig/anveshika_swerve_controller.pc'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/lib/python3.10/site-packages'
+[5.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_swerve_controller', 'pythonpath')
+[5.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/hook/pythonpath.ps1'
+[5.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/hook/pythonpath.dsv'
+[5.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/hook/pythonpath.sh'
+[5.348s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/bin'
+[5.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(anveshika_swerve_controller)
+[5.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/package.ps1'
+[5.352s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/package.dsv'
+[5.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/package.sh'
+[5.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/package.bash'
+[5.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/anveshika_swerve_controller/package.zsh'
+[5.355s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/share/colcon-core/packages/anveshika_swerve_controller)
+[5.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_telemetry', 'pythonpath_develop')
+[5.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry/share/anveshika_telemetry/hook/pythonpath_develop.ps1'
+[5.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry/share/anveshika_telemetry/hook/pythonpath_develop.dsv'
+[5.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry/share/anveshika_telemetry/hook/pythonpath_develop.sh'
+[5.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_telemetry/build --no-deps symlink_data
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry' for CMake module files
+[5.365s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry' for CMake config files
+[5.366s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/lib'
+[5.366s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/bin'
+[5.367s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/lib/pkgconfig/anveshika_telemetry.pc'
+[5.367s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/lib/python3.10/site-packages'
+[5.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('anveshika_telemetry', 'pythonpath')
+[5.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/share/anveshika_telemetry/hook/pythonpath.ps1'
+[5.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/share/anveshika_telemetry/hook/pythonpath.dsv'
+[5.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/share/anveshika_telemetry/hook/pythonpath.sh'
+[5.370s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/bin'
+[5.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(anveshika_telemetry)
+[5.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/share/anveshika_telemetry/package.ps1'
+[5.374s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/share/anveshika_telemetry/package.dsv'
+[5.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/share/anveshika_telemetry/package.sh'
+[5.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/share/anveshika_telemetry/package.bash'
+[5.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/share/anveshika_telemetry/package.zsh'
+[5.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kb/Anveshika/Anveshika_ws/install/anveshika_telemetry/share/colcon-core/packages/anveshika_telemetry)
+[5.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_lidar', 'pythonpath_develop')
+[5.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/slam_lidar/share/slam_lidar/hook/pythonpath_develop.ps1'
+[5.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/slam_lidar' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/slam_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/slam_lidar/build --no-deps symlink_data
+[5.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/build/slam_lidar/share/slam_lidar/hook/pythonpath_develop.dsv'
+[5.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/build/slam_lidar/share/slam_lidar/hook/pythonpath_develop.sh'
+[5.601s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar' for CMake module files
+[5.602s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar' for CMake config files
+[5.602s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib'
+[5.602s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/bin'
+[5.602s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/pkgconfig/slam_lidar.pc'
+[5.602s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/python3.10/site-packages'
+[5.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_lidar', 'pythonpath')
+[5.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/hook/pythonpath.ps1'
+[5.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/hook/pythonpath.dsv'
+[5.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/hook/pythonpath.sh'
+[5.604s] Level 1:colcon.colcon_core.environment:checking '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/bin'
+[5.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_lidar)
+[5.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/package.ps1'
+[5.605s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/package.dsv'
+[5.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/package.sh'
+[5.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/package.bash'
+[5.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/package.zsh'
+[5.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/share/colcon-core/packages/slam_lidar)
+[5.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.607s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.607s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.614s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.614s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.614s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.708s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.708s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kb/Anveshika/Anveshika_ws/install/local_setup.ps1'
+[5.709s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kb/Anveshika/Anveshika_ws/install/_local_setup_util_ps1.py'
+[5.712s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kb/Anveshika/Anveshika_ws/install/setup.ps1'
+[5.714s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kb/Anveshika/Anveshika_ws/install/local_setup.sh'
+[5.715s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kb/Anveshika/Anveshika_ws/install/_local_setup_util_sh.py'
+[5.715s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kb/Anveshika/Anveshika_ws/install/setup.sh'
+[5.717s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kb/Anveshika/Anveshika_ws/install/local_setup.bash'
+[5.718s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kb/Anveshika/Anveshika_ws/install/setup.bash'
+[5.719s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kb/Anveshika/Anveshika_ws/install/local_setup.zsh'
+[5.720s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kb/Anveshika/Anveshika_ws/install/setup.zsh'

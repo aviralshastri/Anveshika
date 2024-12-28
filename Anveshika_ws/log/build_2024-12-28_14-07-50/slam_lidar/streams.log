@@ -1,0 +1,20 @@
+[1.595s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/slam_lidar': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/slam_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/slam_lidar/build --no-deps symlink_data
+[2.077s] running develop
+[2.320s] running egg_info
+[2.321s] writing slam_lidar.egg-info/PKG-INFO
+[2.321s] writing dependency_links to slam_lidar.egg-info/dependency_links.txt
+[2.321s] writing entry points to slam_lidar.egg-info/entry_points.txt
+[2.321s] writing requirements to slam_lidar.egg-info/requires.txt
+[2.321s] writing top-level names to slam_lidar.egg-info/top_level.txt
+[2.324s] reading manifest file 'slam_lidar.egg-info/SOURCES.txt'
+[2.325s] writing manifest file 'slam_lidar.egg-info/SOURCES.txt'
+[2.326s] running build_ext
+[2.326s] Creating /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/python3.10/site-packages/slam-lidar.egg-link (link to .)
+[2.327s] Installing driving_node script to /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/slam_lidar
+[2.327s] Installing imu_node script to /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/slam_lidar
+[2.328s] Installing mapping_node script to /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/slam_lidar
+[2.328s] Installing navigation_node script to /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/slam_lidar
+[2.328s] 
+[2.328s] Installed /home/kb/Anveshika/Anveshika_ws/build/slam_lidar
+[2.328s] running symlink_data
+[2.359s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/slam_lidar' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/slam_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/slam_lidar/build --no-deps symlink_data

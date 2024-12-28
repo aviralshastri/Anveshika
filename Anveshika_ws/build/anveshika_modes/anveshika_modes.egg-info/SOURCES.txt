@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+anveshika_modes/__init__.py
+anveshika_modes/modes_node.py
+anveshika_modes.egg-info/PKG-INFO
+anveshika_modes.egg-info/SOURCES.txt
+anveshika_modes.egg-info/dependency_links.txt
+anveshika_modes.egg-info/entry_points.txt
+anveshika_modes.egg-info/requires.txt
+anveshika_modes.egg-info/top_level.txt
+anveshika_modes.egg-info/zip-safe
+resource/anveshika_modes

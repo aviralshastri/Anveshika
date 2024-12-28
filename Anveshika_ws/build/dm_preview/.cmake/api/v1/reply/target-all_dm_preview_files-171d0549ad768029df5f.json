@@ -1,0 +1,1216 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "all_dm_preview_files::@6890427a1f51a3e7e1df",
+	"name" : "all_dm_preview_files",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				151,
+				152,
+				153,
+				157,
+				158,
+				159,
+				160,
+				162,
+				163,
+				165,
+				166,
+				168,
+				169,
+				171,
+				172,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				184,
+				185,
+				186,
+				187,
+				188
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				31,
+				32,
+				190,
+				191,
+				192
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				154,
+				155,
+				156,
+				161,
+				164,
+				167,
+				170,
+				173,
+				174,
+				181,
+				182,
+				183,
+				189
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : ".vscode/c_cpp_properties.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".vscode/settings.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "config/common.yaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/DEFAULT_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/EX8036_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/EX8037_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/EX8038_BL15cm_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/EX8038_BL3cm_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/EX8038_BL6cm_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/EX8040S_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/EX8052_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/EX8053_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/EX8054_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/HYPATIA2_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/HYPATIA_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/IVY2_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/IVY_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/NORA_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/ORANGEITRI_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/SANDRA_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/YX80362_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/YX8059_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/YX8062_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/YX8063_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/YX8076_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/DM_Quality_Cfg/YX8081_DM_Quality_Register_Setting.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/ModeConfig.db",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/SWPP.cfg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/libeYs3D.log.config",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/eYs3D/cfg/libeYs3D_win.log.config",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/APC.def",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/APC_unity.def",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/Constants.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/ColorPaletteGenerator.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/IMU/IMU_Filter/IMUFilter.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/IMU/IMU_Filter/IMUFilter_Complementary.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/IMU/IMU_Filter/Quaternion1.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/IMU/IMU_Filter/quaternion.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/IMUData.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/ModeConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/ModeConfigOptions.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/PlyFilter.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/PlyWriter.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/RegisterSettings.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/hidapi/hidapi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/sqlite3/sqlite3.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/sqlite3/sqlite3ext.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DMPreview_utility/utImageProcessingUtility.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/DebugCPP.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/EYS3DSystem.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/EYS3DSystem_def.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/UnityBinder.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/VersionInfo.rc.in",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/Compiler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/EnumFlags.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/Optional.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/TypeTraits.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/memory/LazyInstance.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/synchronization/ConditionVariable.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/synchronization/Event.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/synchronization/Lock.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/synchronization/MessageChannel.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/threads/Async.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/threads/FunctorThread.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/threads/Thread.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/threads/ThreadPool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/threads/ThreadStore.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/threads/Types.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/base/threads/WorkerThread.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/cgroup.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/debug.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_8036.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_80362.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_8037.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_8052.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_8053.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_8059.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_8062.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_8067.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_8073.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_8081.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_Hypatia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_Hypatia2.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_Stacy.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/CameraDevice_StacyJunior.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/FrameSetPipeline.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/IMUDevice.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/IMUDevice_8062.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/MemoryAllocator.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/Pipeline.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/controller/RegisterReadWriteController.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/model/CameraDeviceProperties.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/model/DepthAccuracyOptions.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/model/DepthFilterOptions.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/model/IRProperty.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/model/PostProcessOptions.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/devices/model/RegisterReadWriteOptions.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/macros.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/objectarray.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/sensors/IMUDataProducer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/sensors/SensorData.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/sensors/SensorDataProducer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/single_consumer_queue.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/unity_debug.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/utils.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/version_utils.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/ColorFrameProducer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/ColorProcessHandle.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/DepthFrameProducer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/Frame.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/FrameProducer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/FrameSet.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/GeneralFrame.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/GuestReadbackWorker.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/IImageProcess.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/PCFrame.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/PCFrameProducer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/PCProducer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/PostProcessHandle.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/Producer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/coders.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/eYs3D.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/factory.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/pc_coders.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/include/video/video.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/Debug/libeys3d.NVIDIA_64.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/Debug/libeys3d.NVIDIA_64.so.d5be8506",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/Debug/libeys3d.X86_64.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/Debug/libeys3d.X86_64.so.d5be8506",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/Debug/libeSPDI_NVIDIA_64_debug.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/Debug/libeSPDI_NVIDIA_64_debug.so.5.0.1.37",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/Debug/libeSPDI_X86_64_debug.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/Debug/libeSPDI_X86_64_debug.so.5.0.1.37",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_d3d10.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_d3d11.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_dx9_media_sharing.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_dx9_media_sharing_intel.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_egl.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_ext.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_ext_intel.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_gl.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_gl_ext.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_half.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_icd.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_platform.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_va_api_media_sharing_intel.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/cl_version.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/include/opencl.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/lib/libOpenCL.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/lib/libOpenCL.so.1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/OpenCL/x86_64/lib/libOpenCL.so.1.2",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/eSPDI.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/eSPDI_def.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/eSPDI_version.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/libeSPDI_NVIDIA_64.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/libeSPDI_NVIDIA_64.so.5.0.1.37",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/libeSPDI_X86_64.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/libeSPDI_X86_64.so.5.0.1.37",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/include/Self_Calibration_API.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so.76613ba",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/include/Self_Calibration_API.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so.76613ba",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/self_calibration/Self_Calibration_API/aarch64/include/Self_Calibration_API.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/self_calibration/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/self_calibration/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so.76613ba",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/self_calibration/Self_Calibration_API/x86_64/include/Self_Calibration_API.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/self_calibration/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/self_calibration/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so.76613ba",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/thermal/x86_64/include/mapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/thermal/x86_64/include/measure.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/thermal/x86_64/lib/libMapping.a",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/eSPDI/thermal/x86_64/lib/libMeasure.a",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/libeys3d.NVIDIA_64.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/libeys3d.NVIDIA_64.so.d5be8506",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/libeys3d.X86_64.so",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "eYs3D_wrapper/lib/libeys3d.X86_64.so.d5be8506",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/apc_camera_component.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/types_calib.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/versionInfo.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "launch/apc_camera_launch.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "package.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "rviz/apc.rviz",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "scripts/config/eys3d_depth-8062.rules",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "scripts/permissions.sh",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "scripts/versionInfo.h.in",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/apc_camera_component.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/apc_camera_listener.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/apc_wrapper.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
